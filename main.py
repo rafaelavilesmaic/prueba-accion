@@ -6,7 +6,7 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {
-        "message": "Hola Mundo desde FastAPI!",
+        "message": "Hola Mundo desde FastAPI! cambio",
         "timestamp": datetime.now().isoformat()
     }
 
